@@ -2,7 +2,7 @@ name: Print README
 on:
   workflow_dispatch:
 jobs:
-  print readme:
+  print_readme:
     runs-on: ubentu-latest
     steps:
       - name: Checkout repository
