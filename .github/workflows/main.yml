@@ -1,0 +1,16 @@
+name: Print README
+on:
+  workflow_dispatch:
+jobs:
+  print_readme:
+    runs-on: ubentu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Print README content
+        run: cat README.md
+     
+    
+   
+
+
