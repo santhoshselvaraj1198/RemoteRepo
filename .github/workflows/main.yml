@@ -1,6 +1,6 @@
 name: Print README
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 jobs:
   print readme:
     runs-on: ubentu-latest
